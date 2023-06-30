@@ -1,0 +1,3 @@
+n: 2
+adj_mats_dir: ./data/adj_mats
+res_dir: ./data/hochschild_characteristics/n_2

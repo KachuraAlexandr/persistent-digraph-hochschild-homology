@@ -13,7 +13,7 @@ def main():
         config = yaml.load(config_f, Loader=yaml.Loader)
     
     n = config['n']
-    adj_mats_dir = config['connectome_dir']
+    adj_mats_dir = config['adj_mats_dir']
     res_dir = config['res_dir']
     
     for i, adj_mat_fname in tqdm(enumerate(os.listdir(adj_mats_dir))):

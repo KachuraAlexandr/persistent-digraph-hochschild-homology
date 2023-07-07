@@ -448,7 +448,7 @@ class DirectedFlagComplex:
             )
             self.dim_HH_1_cur = self.dim_HH_0_cur \
                                 - self.condensation_cur.number_of_nodes() \
-                                + sum(map(len, self.condensation_paths))
+                                + sum(map(len, self.condensation_paths.values()))
     
     
     def comp_persistent_hh_char(
